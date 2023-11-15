@@ -21,9 +21,9 @@ type Config = {
 };
 
 export const config: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
-  selector: `.docs-builder-container`,
+  url: "https://learn.microsoft.com/en-us/dotnet/csharp/",
+  match: "https://learn.microsoft.com/en-us/dotnet/**",
+  selector: `.button.button-filled.button-primary`,
   maxPagesToCrawl: 1000,
   outputFileName: "output.json",
 };
