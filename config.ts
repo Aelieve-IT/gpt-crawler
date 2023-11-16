@@ -21,9 +21,9 @@ type Config = {
 };
 
 export const config: Config = {
-  url: "https://learn.microsoft.com/en-us/dotnet/csharp/",
-  match: "https://learn.microsoft.com/en-us/dotnet/**",
-  selector: `.button.button-filled.button-primary`,
-  maxPagesToCrawl: 1000,
+  url: "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
+  match: "https://learn.microsoft.com/en-us/dotnet/csharp/**",
+  selector: `main`,
+  maxPagesToCrawl: 2500,
   outputFileName: "output.json",
 };
