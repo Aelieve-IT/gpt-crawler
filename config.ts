@@ -21,9 +21,9 @@ type Config = {
 };
 
 export const config: Config = {
-  url: "https://learn.microsoft.com/en-us/dotnet/csharp/tour-of-csharp/",
-  match: "https://learn.microsoft.com/en-us/dotnet/csharp/**",
-  selector: `main`,
+  url: "https://www.zoho.com/books/api/v3/",
+  match: "https://www.zoho.com/books/api/v3/**",
+  selector: `div.content`,
   maxPagesToCrawl: 2500,
   outputFileName: "output.json",
 };
